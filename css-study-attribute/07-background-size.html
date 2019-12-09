@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 400px;
+            height: 300px;
+            border: 1px solid red;
+            background:url(./panda.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            /* background-size: cover; */
+        }
+
+/*
+background:bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+    background-color      指定要使用的背景颜色 1
+    background-position   指定背景图像的位置   1
+    background-size       指定背景图片的大小   3
+    background-repeat     指定如何重复背景图像  1
+    background-origin     指定背景图像的定位区域 3
+    background-clip       指定背景图像的绘画区域 3
+    background-attachment 设置背景图像是否固定或者随着页面的其余部分滚动。    1
+    background-image      指定要使用的一个或多个背景图像
+
+background-position     属性设置背景图像的起始位置。   1
+    left top ..right bottom     组合使用 只写一个 缺省的default是cneter;
+    x% y%                       第一个值是水平位置，第二个值是垂直。左上角是0％0％。右下角是100％100％。如果仅指定了一个值，其他值将是50％。 。默认值为：0％0％
+    
+
+background-size:    指定背景图片的大小   3  background-size: length|percentage|cover|contain;
+    length          设置背景图片高度和宽度。第一个值设置宽度，第二个值设置的高度。如果只给出一个值，第二个是设置为 auto(自动)
+    percentage      将计算相对于背景定位区域的百分比。第一个值设置宽度，第二个值设置的高度。如果只给出一个值，第二个是设置为"auto(自动)"
+    cover           此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小。
+    contain         此时会保持图像的纵横比并将图像缩放成将适合背景定位区域的最大大小。
+
+*/
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+</body>
+</html>
